@@ -1,5 +1,7 @@
 # fexell-vue-boilerplate
 
+This is a boilerplate with a header and menu, and includes: Vue, Pinia, Tailwind, and FontAwesome.
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

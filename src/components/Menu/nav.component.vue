@@ -11,7 +11,7 @@
   <transition name='slideIn'>
     <nav
       class='menu__nav fixed top-0 right-0 h-screen bg-white'
-      v-if='menuStore.isMenuCollapsed'>
+      v-show='menuStore.isMenuCollapsed'>
       <div class='menu__nav__container relative flex flex-col h-full'>
         <MenuHeaderComponent />
         <ul class='flex flex-col flex-1 h-full space-y-4 justify-center items-center'>
@@ -34,7 +34,7 @@
       right: -100vw
 
   .menu__nav
-    width: 50rem
+    width: 40rem
 
     @media screen and (max-width: 992px)
       width: 100%
